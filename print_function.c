@@ -18,15 +18,15 @@ int print_out(const char *format, fmt_t *print_arr, va_list argz)
 	a = format[b];
 	while (a != '\0')
 	{
-		if(a == '%')
+		if (a == '%')
 		{
 			c = 0;
 			b++;
 			a = format[b];
-			while (print_arr[c].type !=NULL &&
+			while (print_arr[c].type != NULL &&
 				a != *(print_arr[c].type))
 				c++;
-			if (print_arr[c].type !=NULL)
+			if (print_arr[c].type != NULL)
 				digit = digit + print_arr[c].f(argz);
 			else
 			{
@@ -58,15 +58,17 @@ int _printf(const char *format, ...)
 	fmt_t ar[] = {
 		{"c", ch},
 		{"s", str},
-		/*{"d", _int},
-		{"b", _bin},
-		{"i", _int},
-		{"u", _ui},
-		{"o", _oct},
-		{"x", _hex_l},
-		{"X", _hex_u},
-		{"R", _rot13},
-		{NULL, NULL}*/
+	       /**
+		*{"d", _int},
+		*{"b", _bin},
+		*{"i", _int},
+		*{"u", _ui},
+		*{"o", _oct},
+		*{"x", _hex_l},
+		*{"X", _hex_u},
+		*{"R", _rot13},
+		*{NULL, NULL}
+		*/
 	};
 
 	if (format == NULL)
