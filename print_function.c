@@ -10,7 +10,7 @@
  * @argz: va_list variable
  * Return: void
  */
-int print_out(const char *format, format_ted *print_arr, va_list argz)
+int print_out(const char *format, fmt_t *print_arr, va_list argz)
 {
 	char a;
 	int digit = 0, b = 0, c = 0;
@@ -55,10 +55,10 @@ int _printf(const char *format, ...)
 	va_list argz;
 	int k = 0;
 
-	format_ted ar[] = {
+	fmt_t ar[] = {
 		{"c", ch},
 		{"s", str},
-		{"d", _int},
+		/*{"d", _int},
 		{"b", _bin},
 		{"i", _int},
 		{"u", _ui},
@@ -66,7 +66,7 @@ int _printf(const char *format, ...)
 		{"x", _hex_l},
 		{"X", _hex_u},
 		{"R", _rot13},
-		{NULL, NULL}
+		{NULL, NULL}*/
 	};
 
 	if (format == NULL)
