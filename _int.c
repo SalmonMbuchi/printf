@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _int - function to print integers
+ * _int - function to print integer
  * @integer: varable of type va_list
  * Return: int
  */
