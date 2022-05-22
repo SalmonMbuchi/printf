@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * ch - returns a char
+ * ch - return a char
  * @character: list provided
  * Return: number of char printed
  */
