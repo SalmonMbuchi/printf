@@ -8,7 +8,7 @@
  * @format: character string
  * @print_arr: an arrar of struct
  * @argz: va_list variable
- * Return: void
+ * Return: void 
  */
 int print_out(const char *format, fmt_t *print_arr, va_list argz)
 {
