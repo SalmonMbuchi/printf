@@ -59,7 +59,7 @@ int _printf(const char *format, ...)
 		{"c", ch},
 		{"s", str},
 		{"d", _int},
-		{"i", _int},	
+		{"i", _int},
 		/**
 		*{"b", _bin},
 		*{"u", _ui},

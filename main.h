@@ -1,10 +1,15 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <unistd.h>
 #include <stdarg.h>
 #include <stdlib.h>
-#ifndef MAIN_H
-#define MAIN_H
 int _printf(const char *format, ...);
 int _putchar(char c);
+/**
+ * struct fmt - checks for formats
+ * @type: the print format
+ * @f: print function to use
+ */
 typedef struct fmt
 {
 	char *type;

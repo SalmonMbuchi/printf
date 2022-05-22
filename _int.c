@@ -2,7 +2,7 @@
 /**
  * _int - function to print integers
  * @integer: varable of type va_list
- * @Return: int
+ * Return: int
  */
 int _int(va_list integer)
 {
@@ -27,5 +27,5 @@ int _int(va_list integer)
 		y = y % expo;
 		expo = expo / 10;
 	}
-	return(length);
+	return (length);
 }
