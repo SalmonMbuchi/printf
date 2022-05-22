@@ -6,7 +6,7 @@
 int _printf(const char *format, ...);
 int _putchar(char c);
 /**
- * struct fmt - checks for formats
+ * struct fmt - checks for format
  * @type: the print format
  * @f: print function to use
  */
