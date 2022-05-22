@@ -58,10 +58,10 @@ int _printf(const char *format, ...)
 	fmt_t ar[] = {
 		{"c", ch},
 		{"s", str},
-	       /**
-		*{"d", _int},
+		{"d", _int},
+		{"i", _int},	
+		/**
 		*{"b", _bin},
-		*{"i", _int},
 		*{"u", _ui},
 		*{"o", _oct},
 		*{"x", _hex_l},

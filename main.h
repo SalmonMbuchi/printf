@@ -12,4 +12,5 @@ typedef struct fmt
 } fmt_t;
 int ch(va_list character);
 int str(va_list string);
+int _int(va_list integer);
 #endif
