@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _putchar - prints a single character
+ * _putchar - print a single character
  * @c: the character to be printed
  * Return: int
  */
